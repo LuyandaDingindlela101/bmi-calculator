@@ -60,7 +60,7 @@ def calculate_female_ideal_bmi(weight, height, age):
 
 #   FUNCTION WILL DECIDE WHICH FUNCTION WILL RUN BASED ON THE USERS gender
 def calculate_ideal_bmi():
-    age = age_entry.get()
+    age = int(age_entry.get())
     gender = gender_entry.get()
     weight = int(weight_entry.get())
     height = int(height_entry.get())
